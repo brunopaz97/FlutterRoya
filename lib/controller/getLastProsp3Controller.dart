@@ -12,7 +12,7 @@ class GetLastProsp3Controller extends GetxController{
     isLoading.value = true;
     try{
       var response = await Dio().get(
-          'https://hostembedded.com/FlutterRoya/controller/tempinictel.php?op=ultimo'
+          'https://hostembedded.com/FlutterRoya/controller/estacionprosp3.php?op=ultimo'
       );
       final datax = jsonDecode(response.data);
       getDataModel.value=GetDataModel.fromJson(datax);

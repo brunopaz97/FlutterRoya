@@ -12,7 +12,7 @@ class GetHistoricProsp3Controller extends GetxController{
     isLoading.value = true;
     try{
       var response = await Dio().get(
-          'https://hostembedded.com/FlutterRoya/controller/tempinictel.php?op=listar'
+          'https://hostembedded.com/FlutterRoya/controller/estacionprosp3.php?op=listar'
       );
       final datax = jsonDecode(response.data);
       getDataModel.value=GetDataModel.fromJson(datax);

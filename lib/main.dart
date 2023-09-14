@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:primera/pages/GaugesScreen.dart';
+import 'package:primera/pages/MapScreen.dart';
 import 'package:primera/pages/HomeScreen.dart';
 import 'package:primera/pages/DetailsScreen.dart';
 

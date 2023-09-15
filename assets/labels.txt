@@ -1,0 +1,3 @@
+0 Severidad 1
+1 Severidad 2
+2 Severidad 3
